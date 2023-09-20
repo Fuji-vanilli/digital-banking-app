@@ -13,6 +13,7 @@ import { CustomerAccountsComponent } from './customer-accounts/customer-accounts
 import { LoginComponent } from './login/login.component';
 import { AdminTemplateComponent } from './admin-template/admin-template.component';
 import { AppHttpInterceptor } from './interceptors/app-http.interceptor';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AppHttpInterceptor } from './interceptors/app-http.interceptor';
     NewCustomerComponent,
     CustomerAccountsComponent,
     LoginComponent,
-    AdminTemplateComponent
+    AdminTemplateComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
